@@ -1,0 +1,64 @@
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+ENV/
+.env
+*.env
+
+# ── Node / React ─────────────────────────────────────────
+node_modules/
+dist/
+.vite/
+*.local
+
+# ── Flutter / Dart ───────────────────────────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.g.dart
+*.freezed.dart
+android/.gradle/
+android/local.properties
+android/app/google-services.json
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Podfile.lock
+*.iml
+
+# ── Docker / Infra ───────────────────────────────────────
+.docker/
+
+# ── IDE ──────────────────────────────────────────────────
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Secrets ──────────────────────────────────────────────
+.env
+*.pem
+*.key
+firebase-credentials.json
+google-services.json
+GoogleService-Info.plist
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+logs/
